@@ -1,0 +1,23 @@
+{
+    "appid": "tt648d1230fae8eab602",
+    "projectname": "Numerous Ninjas",
+    "unity": {
+        "build": {
+            "webgl": "D:\\Unity\\MiJinTiaoZhan\\tt-minigame\\webgl_package-20260723_144202.zip",
+            "native": {
+                "il2cpp": "",
+                "apk": "",
+                "fullApk": ""
+            },
+            "instantGame": ""
+        },
+        "publishType": "2",
+        "starkSdkVersion": "Without StarkSDK",
+        "unityToolsVersion": null,
+        "unityEngineVersion": "2021.3.14f1c1",
+        "arch": "both"
+    },
+    "setting": {
+        "urlCheck": true
+    }
+}

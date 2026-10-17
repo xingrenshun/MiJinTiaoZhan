@@ -1,0 +1,20 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# ---- Git LFS：超过 GitHub 100MB 单文件上限的 TMP 字体资源 ----
+"Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset" filter=lfs diff=lfs merge=lfs -text
+"Assets/TextMesh Pro/Resources/Fonts & Materials/simhei SDF.asset" filter=lfs diff=lfs merge=lfs -text
+
+# ---- Unity 资源类型：强制按二进制处理，避免换行符转换损坏 ----
+*.unity   -text
+*.prefab  -text
+*.asset   -text
+*.mat     -text
+*.anim    -text
+*.controller -text
+*.psd     -text
+*.png     -text
+*.jpg     -text
+*.ttf     -text
+*.otf     -text
+*.dll     -text
