@@ -7,9 +7,9 @@ using TTSDK.UNBridgeLib.LitJson;
 
 public class GuangGao : Singleton<GuangGao>
 {
-    private static string XPId = "rag3bdje3cf3iku3v7";
+    private static string XPId = "d4fglj5efg1a3ec2lm";
     private static string BannerId = "3h77ef705bi81245fg";
-    private static string rewardId = "1a1tn0go0apdjt4ge1";
+    private static string rewardId = "2i05dea8c38gi3i0fg|";
 
     TTInterstitialAd m_InterAdIns = null;
     TTBannerAd m_bannerAdIns = null;
